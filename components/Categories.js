@@ -38,9 +38,10 @@ const styles = StyleSheet.create({
   },
   categoryContainer: {
     // backgroundColor: "#f8f8f8",
-    padding: 11,
+    padding: 10,
     borderRadius: 70,
     marginRight: 15,
+    marginLeft: 20, //pour decaller les elements vers la droite
     // borderWidth: 1,
     // borderColor: "#ff4040",
     backgroundColor: "rgba(128, 128, 128, 0.1)",
@@ -59,7 +60,8 @@ const styles = StyleSheet.create({
     fontSize: 12,
     // fontWeight: "bold",
     marginTop: 5, // Espace entre l'icône et le texte
-    marginHorizontal: 9,
+    marginLeft: 27, // centre le text au dessous des icônes
+    // marginHorizontal: 9,  // j'ai centré le text par rapport aux elements  
   },
   image: {
     width: 40,
